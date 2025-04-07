@@ -1,7 +1,14 @@
 
-Project Details:Library Management System
-Group: 1
-Roll Numbers: 1-5
+## 📚 Library Management System
+
+---
+
+### **Project Details**
+
+- **Group:** 1 
+- **Roll Numbers:** 1-5
+- **Problem Statement:** Develop a database for a Library Management System
+
 Problem Statement: Develop a database for a Library Management System
 About the Project
 We created this database system to help library systems keep track of their books, memebers, and transactions. Our system makes it easy to see which books are available, track memeber history, and analyze transactions patterns.
