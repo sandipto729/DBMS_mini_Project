@@ -43,31 +43,15 @@ We kept the database simple with three main tables:
 
 Transactions (TransactionID, MemberID, BookID, BorrowDate, ReturnDate)
 ### How We Organized Everything
-├── SQL_Scripts/
-│   ├── create_tables.sql    # Creates the database structure
-│   ├── insert_data.sql      # Adds sample data
-│   └── queries.sql          # Contains all our required queries
-├── Reports/
-│   └── Library_Management_System_Report.docx
-├── GitHub_Repo/
-│   └── (All our SQL scripts)
-├── Screenshots/
-│   ├── (Image file of the output of each queries)
-└── README.md
+![image](https://github.com/user-attachments/assets/74f3a3e0-ff6a-4813-a3c0-0a5cd21c9c01)
+
 ### Getting Started
 If you want to test our system:
 
-# Open MySQL Command Line Client
-mysql -u username -p
+ Open MySQL Command Line Client
 
-# Set up the database
-CREATE DATABASE library_management;
-USE library_management;
+![image](https://github.com/user-attachments/assets/a0efda45-4b47-4d22-9682-baa17ce21a3c)
 
-# Run our scripts
-source SQL_Scripts/create_tables.sql
-source SQL_Scripts/insert_data.sql
-source SQL_Scripts/queries.sql
 ### Key Features (Implemented as Queries)
 We implemented all these features as SQL queries:
 
