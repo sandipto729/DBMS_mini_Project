@@ -32,7 +32,7 @@ For this project, we set up a virtual database using MySQL Command Line Client. 
 
 --It's perfect for demonstrating how the system works during evaluation
 
-he MySQL Command Line Client let us directly execute our queries and see results immediately, which made development and testing much faster.
+The MySQL Command Line Client let us directly execute our queries and see results immediately, which made development and testing much faster.
 
  ### Our Database Structure
 We kept the database simple with three main tables:
