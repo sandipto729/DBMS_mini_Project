@@ -9,9 +9,17 @@
 - **Roll Numbers:** 1-5
 - **Problem Statement:** Develop a database for a Library Management System
 
-Problem Statement: Develop a database for a Library Management System
-About the Project
-We created this database system to help library systems keep track of their books, memebers, and transactions. Our system makes it easy to see which books are available, track memeber history, and analyze transactions patterns.
+### 📘 About the Project
+
+We created this **Library Management System** database to help library systems keep track of their **books**, **members**, and **transactions**.  
+Our system makes it easy to:
+
+-  See which books are currently **available**
+-  Track **member borrowing history**
+-  Analyze **transaction patterns**
+
+This system simplifies library operations and improves efficiency through organized and accessible data.
+
 
 Virtual Database
 For this project, we set up a virtual database using MySQL Command Line Client. We chose this approach because:
