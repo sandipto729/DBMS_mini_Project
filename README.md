@@ -21,16 +21,20 @@ Our system makes it easy to:
 This system simplifies library operations and improves efficiency through organized and accessible data.
 
 
-Virtual Database
+### Virtual Database
 For this project, we set up a virtual database using MySQL Command Line Client. We chose this approach because:
 
-It gave us a safe environment to test all our SQL queries without any risk
-We could easily reset the database when needed during development
-Everyone in our group could work with the same database structure
-It's perfect for demonstrating how the system works during evaluation
-The MySQL Command Line Client let us directly execute our queries and see results immediately, which made development and testing much faster.
+--It gave us a safe environment to test all our SQL queries without any risk
 
-Our Database Structure
+--We could easily reset the database when needed during development
+
+--Everyone in our group could work with the same database structure
+
+--It's perfect for demonstrating how the system works during evaluation
+
+he MySQL Command Line Client let us directly execute our queries and see results immediately, which made development and testing much faster.
+
+ ### Our Database Structure
 We kept the database simple with three main tables:
 
  Books (BookID, Title, Author, Genre, Availability)
@@ -38,7 +42,7 @@ We kept the database simple with three main tables:
  Members (MemberID, Name, Contact, MembershipDate)
 
 Transactions (TransactionID, MemberID, BookID, BorrowDate, ReturnDate)
-Library-Management-Systems
+### How We Organized Everything
 ├── SQL_Scripts/
 │   ├── create_tables.sql    # Creates the database structure
 │   ├── insert_data.sql      # Adds sample data
@@ -50,7 +54,7 @@ Library-Management-Systems
 ├── Screenshots/
 │   ├── (Image file of the output of each queries)
 └── README.md
-Getting Started
+### Getting Started
 If you want to test our system:
 
 # Open MySQL Command Line Client
@@ -64,8 +68,8 @@ USE library_management;
 source SQL_Scripts/create_tables.sql
 source SQL_Scripts/insert_data.sql
 source SQL_Scripts/queries.sql
-Key Features (Implemented as Queries)
+### Key Features (Implemented as Queries)
 We implemented all these features as SQL queries:
 
-Note
+### Note
 This is our submission for the DBMS course project. We've implemented everything using MySQL Command Line Client as our virtual database environment.
